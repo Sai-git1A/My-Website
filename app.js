@@ -14,7 +14,7 @@ app.get('/privacy-policy', (req, res) => {
   res.redirect('privacy');
 });
 
-app.get('privacy', (req, res) => {
+app.get('/privacy', (req, res) => {
   res.render('privacy.ejs');
 });
 
