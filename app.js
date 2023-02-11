@@ -11,7 +11,11 @@ app.get('/', (req, res) => {
 });
 
 app.get('/privacy-policy', (req, res) => {
-  res.redirect('privacy.ejs');
+  res.redirect('privacy');
+});
+
+app.get('privacy', (req, res) => {
+  res.render('privacy.ejs');
 });
 
 app.listen(process.env.PORT || 3000, (req, res) => {
