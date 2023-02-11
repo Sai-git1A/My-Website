@@ -11,12 +11,12 @@ app.get('/', (req, res) => {
 });
 
 app.get('/privacy-policy', (req, res) => {
-  res.redirect('privacy');
-});
-
-app.get('/privacy', (req, res) => {
   res.render('privacy.ejs');
 });
+
+// app.get('/privacy', (req, res) => {
+//   res.render('privacy.ejs');
+// });
 
 app.listen(process.env.PORT || 3000, (req, res) => {
   console.log("Server listening on port 3000");
