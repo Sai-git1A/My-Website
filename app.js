@@ -8,7 +8,7 @@ app.get('/', (req, res) => {
 });
 
 app.get('/', (req, res) => {
-  res.sendFile(__dirname + '/app-ads.txt');
+  res.send(process.env.APPADS);
 });
 
 app.listen(process.env.PORT || 3000, (req, res) => {
