@@ -1,14 +1,13 @@
 const express = require('express');
+const ejs = require('ejs');
+
 const app = express();
 
 app.use(express.static('public'));
+app.set('view engine', 'ejs');
 
 app.get('/', (req, res) => {
-  res.send("Server is listening on port 3000")
-});
-
-app.get('/', (req, res) => {
-  res.send(process.env.APPADS);
+  res.render('index.ejs');
 });
 
 app.listen(process.env.PORT || 3000, (req, res) => {
