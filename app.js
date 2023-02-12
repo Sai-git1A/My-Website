@@ -11,7 +11,7 @@ app.get('/', (req, res) => {
 });
 
 app.get('/privacy-policy', (req, res) => {
-  res.render('privacy.ejs');
+  res.sendFile(__dirname + '/public/app-ads.txt');
 });
 
 app.listen(process.env.PORT || 3000, (req, res) => {
