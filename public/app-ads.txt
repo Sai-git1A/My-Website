@@ -1,2 +1,1 @@
-junnovate.com, kcn-CHILD_NETWORK, DIRECT
-google.com, pub-7724198591595211, RESELLER, f08c47fec0942fa0
+facebook.com, 3130223793872854, DIRECT, c3e20eee3f780d68
