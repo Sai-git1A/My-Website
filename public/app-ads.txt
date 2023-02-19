@@ -1,1 +1,2 @@
-facebook.com, 3130223793872854, DIRECT, c3e20eee3f780d68
+junnovate.com, kcn-COLOR_IDENTIFY, DIRECT
+google.com, pub-7724198591595211, RESELLER, f08c47fec0942fa0
